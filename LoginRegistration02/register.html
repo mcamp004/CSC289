@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head> 
+<meta charset ="utf-8">
+<title>Green Front</title> 
+</head> 
+
+<!----Stylesheets---> 
+<link rel="stylesheet" type="text/css" href="./Styles/bootstrap.min.css" >
+<link rel="stylesheet" type="text/css" href="./Styles/Themes/light.css">
+
+<link rel="stylesheet" type="text/css" href="custom/main.css"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<div class = "container">
+	<body> 
+	
+		<div class = "container">
+		<div class = "jumbotron">
+			<section id ="title"> 
+			<h1>Register</h1>
+			<h2>Community Garden</h2>
+			</section>
+		</div>
+
+	<!---Navagation Bar --> 
+	<div class = "row">
+	
+		<nav class="navbar navbar-default">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span> 
+      </button>
+		<a class="navbar-brand" href="#">Green Front</a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="Home.html">About</a></li>
+			<li><a href="team.html">Team</a></li>
+			<li><a href="gardens.html">Gardens</a></li> 
+			<li><a href="nature.html">Nature</a></li> 
+			<li><a href="events.html">Events</a></li> 
+			<li><a href="contact.html">Contact</a></li>
+			
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login/Register</a></li>
+		</ul>
+		</div>
+		</div>
+		</nav>
+	</div>
+	
+	
+	<!----Registration Form----> 
+	
+	<div class = "row"> 
+		
+		<div class="panel panel-success col-xs-12 col-md-6 col-md-offset-3">
+		<div class="panel-heading"><b>Registration<b></div>
+		<div class="panel-body">
+		<div class = "alert alert-danger">No</div> 
+		<div class = "alert alert-warning">Error</div> 
+		<div class = "alert alert-success">Ok</div> 
+		
+		
+		<form class="form-horizontal">
+		
+		<div class="form-group"> 
+			<!---Input group---> 
+			<div class="form-group has-feedback"> 
+			<label for="firstName" class="control-label col-md-4">First Name</label> 
+			<div class="col-md-6"> 
+			<div class="input-group"> 
+				
+				
+				<input type="text" name="firstName" id="firstName" class="form-control" required>
+				</div>
+				
+		    </div> 
+			</div>
+		
+			<!--Input group---> 
+			<div class = "form-group has-feedback"> 
+			<label for = "lastName" class="control-label col-md-4 ">Last Name</label> 
+			<div class="col-md-6"> 
+				<input type="text" name="lastName" id="lastName" class="form-control" required > 
+				
+		    </div> 
+			</div>
+			
+			
+			
+			<!---Input group-----> 
+			<div class = "form-group has-feedback"> 
+			<label for = "zip" class="control-label col-md-4 ">Zip</label> 
+			<div class="col-md-6"> 
+				<input type="text" name="zip" id="zip" class="form-control" maxlength="5" required> 
+				
+		    </div> 
+			</div>
+			
+			
+			<!---Input group----> 
+			<div class = "form-group has-feedback"> 
+			<label for = "email" class="control-label col-md-4 ">E-mail</label> 
+			<div class="col-md-6"> 
+				<input type="email" name="email" id="email" class="form-control" required> 
+				 
+		    </div> 
+			</div>
+			
+			<!----Input group----> 
+			<div class = "form-group has-feedback"> 
+			<label for = "password" class="control-label col-md-4 ">Password</label> 
+			<div class="col-md-6"> 
+				<input type="text" name="password" id="password" class="form-control" maxlength="12"  required> 
+				
+		    </div> 
+			</div>
+			
+			<div class = "form-group has-feedback"> 
+			<label for = "verPass" class="control-label col-md-4 ">Verify Password</label> 
+			<div class="col-md-6"> 
+				<input type="text" name="verPass" id="verPas" class="form-control" maxlength="12"  required> 
+				
+		    </div> 
+			</div>
+			
+			
+			<div class="row">
+			<p class="newsletterdesc">
+			<ul class="newsletterdesc">
+			<li><i>Newsletter include:</i></li> 
+			<li>Recipes</li> 
+			<li>Gardening Tips</li> 
+			<li>Green Front growth updates</li> 
+			</ul>
+			</p>
+			</div>
+			<!---Input group---> 
+			<center>
+			<div class="row">
+			
+			
+			<div class ="btn-group show-on-hover"> 
+				
+				<button type="button" class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true"
+				area-expanded="true">Newsletter
+				<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" role="menu">
+					<li class="dropdown-header"<a href"#">Options</a><li> 
+					<li><a href="#">Yes</a></li>
+					<li><a href="#">No</a></li> 
+				</ul>
+			
+			
+			</div> 
+			
+	
+			</div>
+			</center>
+			  <br>
+				<button type="submit" class="btn btn-success btn-block">Submit</button>
+				<br>
+				<div class="row">
+				<p class="gobacktologin">
+					Or
+					<a href="login.html">Login</a></p>
+				</div>
+		</div>
+		</div>
+		</form> 
+	
+</div> 
+</div>
+<!---Scripts ----> 
+
+
+<script src='./Scripts/jquery-3.2.1.min.js'></script>
+<script src='./Scripts/bootstrap.min.js'></script>
+<script src= './Scripts/main.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body> 
+</html> 

@@ -1,0 +1,82 @@
+/**Body & Social Icons Style
+   filename:main.css 
+
+**/
+
+
+
+body{
+
+	font-family:Verdana, arial, sans-serif;
+	font-size:14px;
+	border-radius:10px / 20px;
+	background-image:url(images/lightback.jpg); 
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+	
+ 
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+/*Login**/ 
+.loginDes{
+	text-align:center; 
+	list-style:none; 
+	
+}
+
+
+/***Newsletter Options ***/ 
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+
+	
+}
+
+
+ul.newsletterdesc{
+	list-style: none; 
+	text-align: center; 
+}
+
+p.gobacktologin{
+	text-align:center; 
+}
+
+
+
+
+
+	 
+							   
