@@ -1,0 +1,80 @@
+/* CSS Stylesheet
+filename:gardeningPage.css
+
+
+ */
+
+/*Body*/
+
+body{
+	
+	font-family:Verdana, arial, sans-serif;
+	font-size:14px;
+	border-radius:10px / 20px; 
+	
+}
+
+p{
+	text-align: center; 
+}
+
+h1{
+	text-align:center;
+	color:#004d00;
+	
+}
+
+
+
+img{
+	border-radius: 8px; 
+	display: block; 
+	margin: auto;
+	width: 40%;
+	padding: 6px;
+	
+	
+	
+}
+/* Navigation Bar */
+nav{
+	color: #ecf9f2;
+} 
+
+ul{
+	text-align: center;
+	list-style-type: none; 
+	margin:0; 
+	padding:3px; 
+
+}
+.list li {
+	display: inline;
+	padding: 16px;
+	text-align: center;
+	
+
+}
+
+
+div#siteName{
+	
+	clear:both;
+	right:0; 
+	bottom:0; 
+	left:0;
+	/*width:100%;
+	height:30px;
+	bottom:100%;*/
+	text-align:center;
+	background:#fff2e6;
+	padding: 1px 0px 25px 0px;
+	
+	color:white; 
+	
+}
+
+
+
+
+
