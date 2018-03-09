@@ -16,60 +16,12 @@ body{
 	
 }
 
-
-
-
-
-
-/* Navigation Bar 
-
-nav{
-	padding: 20px;
-}
-
-ul{
-	text-align: center;
-	list-style-type: none; 
-	margin:0; 
-	padding:3px; 
-
-}
-.list li {
-	display: inline;
-	padding: 16px;
-	text-align: center;
-	
-
-}*/
-
-/* Table
-table {
-	
-	margin: auto; 
-	border: 5px solid #88cc00;
-	float: center;
-	background-color:white;
-	padding-bottom: 15px;
-
-
-}
-td, th {
-	padding: 0.5em;
-	border: 5px; 
-	border: 1px solid #ff4da6;
-}
-
-img {
-	float:right; 
-	margin: auto; 
-	padding: 20px; 
-}
-
-img{
-	width:320px;
-	height:260px; 
+.panel-body{
+	padding:20px;
+	text-align:center; 
 	
 }
+
 
 
 
