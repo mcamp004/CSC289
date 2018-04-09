@@ -6,73 +6,78 @@ filename:gardeningPage.css
 
 /*Body*/
 
-body{
-	
-	font-family:Verdana, arial, sans-serif;
-	font-size:14px;
-	border-radius:10px / 20px; 
+
+
+.full-width-bg{
+background-color:white; /**rgb(238,238,238); **/
+width: 100%;
+
+
+} 	
+
+.break{
+	width:70%;
+	border-width:2px; 
 	
 }
 
-p{
-	text-align: center; 
+
+.main{
+	text-align:center; 
+	padding:10px; 
 }
 
-h1{
+.main1{
 	text-align:center;
-	color:#004d00;
-	
 }
 
 
-
-img{
-	border-radius: 8px; 
-	display: block; 
-	margin: auto;
-	width: 40%;
-	padding: 6px;
-	
-	
-	
+.media-left{
+	padding-right:6px;
 }
-/* Navigation Bar */
-nav{
-	color: #ecf9f2;
+
+.left-media{
+	padding:6px; 
+}
+
+.webinfo{
+	color:#006bb3;
+	text-align:center;
 } 
 
-ul{
-	text-align: center;
-	list-style-type: none; 
-	margin:0; 
-	padding:3px; 
-
-}
-.list li {
-	display: inline;
-	padding: 16px;
-	text-align: center;
-	
-
-}
-
-
-div#siteName{
-	
-	clear:both;
-	right:0; 
-	bottom:0; 
-	left:0;
-	/*width:100%;
-	height:30px;
-	bottom:100%;*/
+.flowerInfo{
 	text-align:center;
-	background:#fff2e6;
-	padding: 1px 0px 25px 0px;
-	
-	color:white; 
-	
 }
+
+
+
+.
+title[img="vegetable"]{ 
+width:40px;
+height:40px; 
+} 
+
+
+.list-group-item{
+	text-align:center;
+}
+
+
+/*Link*/
+
+
+a:hover{color:green; 
+} 
+a:visited{color:pink; 
+}
+
+
+
+/*Carousel*/
+
+.carousel-inner{
+	background-color:#ffe6ff; 
+} 
 
 
 

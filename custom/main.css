@@ -19,6 +19,12 @@ body{
 }
 
 
+.full-width-bg{
+background-color:white; /**rgb(238,238,238); **/
+width: 100%;} 	
+
+
+
 .fa {
   padding: 10px;
   font-size: 15px;
@@ -72,6 +78,10 @@ ul.newsletterdesc{
 
 p.gobacktologin{
 	text-align:center; 
+}
+
+footer{
+	clear:both; 
 }
 
 

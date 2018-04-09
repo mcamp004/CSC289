@@ -16,11 +16,43 @@ body{
 	
 }
 
-.panel-body{
+.eventinfo{	line-height:1.8;
+	text-align: justify; 
+	padding:20px; 
+	
+}
+
+.break{
+	width:60%;
+	border-width:2px; 
+	
+} 
+
+
+
+.mainTitle{
+	text-align:center; 
+	padding: 10px; 
+}
+
+.full-width-bg{
+background-color:white;
+width: 100%;} 	
+
+.panel{
 	padding:20px;
 	text-align:center; 
 	
 }
+
+.heading{
+	text-align:center; 
+}
+
+
+
+
+
 
 
 

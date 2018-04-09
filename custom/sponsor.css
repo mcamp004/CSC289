@@ -1,0 +1,52 @@
+/***Sponsor Stylsheet***/
+
+
+p{
+	text-align: justify; 
+	padding:20px; 
+}
+
+.break{
+	width:70%;
+	border-width:2px; 
+	
+}
+	
+
+.interest{
+	text-align:center; 
+} 
+	
+
+.full-width-bg{
+background-color:white; /**rgb(238,238,238); **/
+width: 100%;} 	
+
+
+.panel-heading{
+	text-align:center; 
+	font-size:14px; 
+}
+
+
+
+.table{
+	border-style:solid; 
+	border-color:green; 
+}
+
+
+.info{
+	text-align:center; 
+}
+
+th{
+	text-align:center;
+}
+
+td{
+	text-align:center; 
+} 
+
+				
+						
