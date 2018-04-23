@@ -1,0 +1,2 @@
+AddType text/html .shtml .htm .html
+AddOutputFilter INCLUDES .shtml .htm .html
