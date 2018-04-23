@@ -8,26 +8,32 @@ filename:eventsPage.css
 /*Body*/
 
 
-body{
-	
-	font-family:Verdana, arial, sans-serif;
-	font-size:14px;
-	
-	
+p{
+	padding:10px; 
 }
 
-.eventinfo{	line-height:1.8;
+
+.mainTitle{
+	text-align:center; 
+	padding:10px; 
+}
+
+td{
+	text-align:left;
+}
+
+
+
+.eventinfo {line-height:1.8;
 	text-align: justify; 
-	padding:20px; 
+
 	
 }
 
 .break{
-	width:60%;
+	width:70%;
 	border-width:2px; 
-	
 } 
-
 
 
 .mainTitle{

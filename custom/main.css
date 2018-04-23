@@ -80,6 +80,12 @@ p.gobacktologin{
 	text-align:center; 
 }
 
+
+.footTitle{
+	color: white; 
+font-weight:bold;
+}
+
 footer{
 	clear:both; 
 }

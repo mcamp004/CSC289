@@ -33,15 +33,15 @@ p{	line-height:1.8;
 }
 
 .break{
-	width:100%;
-	border-width:6px; 
-	
+	width:70%;
+	border-width:4px;
+	float:center; 
 }
 	
 	
 
 	
-header h1{ 
+/*header h1{ 
 	padding:9px 12px 0; 
 	font-family:Tahoma, sans-serif, Arial; 
 	font-weight:900; 
@@ -66,26 +66,11 @@ header h2{
 
 h3{
 	padding-bottom:12px; 
-}
+}*/
 
 
 
 
-div#threecolwrap{
-	float:left;
-	width:100%;
-	
-	background-size:contain; 
-
-	
-}
-
-div#twocolwrap{
-	float:left;
-	width:100%;
-	margin-right:-210px;
-
-}
 
 
 
@@ -104,7 +89,7 @@ img[title="Garden"] {
 }
 
 img[title="communityGarden"] {
-							  border-radius:20px; 
+							  border-radius:15px 50px; 
 							  padding:6px;
 							  float:center;
 							  width:220px;
@@ -114,9 +99,9 @@ img[title="communityGarden"] {
 
 
 
-div#description{
-	color:white; 
-}
+
+
+
 	
 .full-width-bg{
 background-color:white; /**rgb(238,238,238); **/
@@ -131,15 +116,21 @@ width: 100%;}
 border-radius:10px;
 padding:10px
  }
+ 
+ 
+.main{
+	text-align:center; 
+	padding:10px; 
+}
 
+.main1{
+	text-align:center;
+}
 
 
 
 /***Additional Style for further development**/
-hr.style1{ 
- 
-  border-color: black;
-}
+
 
 
 figcaption{

@@ -20,50 +20,64 @@ body{
 }
 
 h1{
-	text-align:center;
+
 	color:#004d00;
 	
 }	
 
-  
+.soil{
+	border-radius:15px 50px; 
+	float:left; 
 	
-  
+}
 	
+
+.main{
+	text-align:center; 
+	padding:10px; 
+}
+
+.main1{
+	text-align:center;
+}
+
+.info{
+	text-align:center; 
+}
+
+
 	
 .description
 {
 	width: 50%; 
 }
 
+p{
+	padding:10px;
+} 
+
+
+	
+
 
 img{
-padding: 20px;}
-
-iv#siteName{
-	
-	clear:both;
-	right:0; 
-	bottom:0; 
-	left:0;
-	/*width:100%;
-	height:30px;
-	bottom:100%;*/
-	text-align:center;
-
-	padding: 1px 0px 25px 0px;
-	color:white; 
-	
+padding: 20px;
 }
+
 
 div#description{
 	color:white; 
 }
 	
 .full-width-bg{
-background-color: #e6fff2; 
+background-color:white; 
 width: 100%;} 	
 
-
+.break{
+	width:70%;
+	border-width:2px; 
+	
+}
 
 
 

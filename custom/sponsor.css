@@ -6,16 +6,20 @@ p{
 	padding:20px; 
 }
 
+.subtitle{
+	font-size:10px; 
+	color:green; 
+}
+
+.interest1{
+	text-align:center; 
+}
+
 .break{
 	width:70%;
 	border-width:2px; 
 	
 }
-	
-
-.interest{
-	text-align:center; 
-} 
 	
 
 .full-width-bg{
@@ -47,6 +51,12 @@ th{
 td{
 	text-align:center; 
 } 
+
+
+li{
+	line-height:1.5em;
+}	
+	
 
 				
 						

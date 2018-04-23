@@ -17,13 +17,13 @@ body{
 	
 }
 
-.full-width-bg{
-background-color:white; /**rgb(238,238,238); **/
-width: 100%;} 	
+.panel-heading{
+	text-align:center;
+}
 
 
-
-h1,h2,h3 {
+h3 {
+	padding:10px;
 	margin:0 0 35px 0;
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
@@ -31,26 +31,25 @@ h1,h2,h3 {
 }
 
 p{
-	margin:0 0 25px;
-	font-size:18px;
+	
+	font-size:12px;
 	line-height:1.6em;
 }
 
-#contactForm{
-	background:green; 
+
+.feedinfo{
+	text-align:center; 
+}
+.form-group{
+	text-align:left; 
 }
 
 
 
-/*#contact{
-	background-image:url("custom/images/starterpot1.jpg");
-	color:#f4f4f4;
-	padding-bottom:80px;
-}
 
-textarea.form-control{
-    height:100px;
-}*/
+
+
+
 
 
 	 
