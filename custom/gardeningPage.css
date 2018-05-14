@@ -28,6 +28,9 @@ width: 100%;
 	
 }
 
+.panel-heading{
+	text-align:center; 
+}
 
 .main{
 	text-align:center; 
@@ -72,6 +75,11 @@ height:40px;
 }
 
 
+.left-media{
+	padding:20px; 
+}
+
+
 /*Link*/
 
 
@@ -87,6 +95,28 @@ a:visited{color:pink;
 .carousel-inner{
 	background-color:#ffe6ff; 
 } 
+
+/*Table*/
+.chart{
+	text-align:center; 
+	background-color:#fff7e6; 
+}
+
+td,th{
+	text-align:center; 
+}
+
+.orange{
+	color:orange; 
+} 
+
+.blue{
+	color:blue; 
+}
+
+.green{
+color:green; 
+}
 
 
 
